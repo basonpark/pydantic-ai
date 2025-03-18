@@ -1,10 +1,7 @@
-# Learning PydanticAI: My Personal Notes
+# Learning PydanticAI
 
-This repository contains my personal notes and practice examples as I learn to use [PydanticAI](https://ai.pydantic.dev/) - a Python Agent Framework designed to make it easier to build production-grade applications with Generative AI.
+This repo uses [PydanticAI](https://ai.pydantic.dev/) - a Python Agent Framework designed to make it easier to build production-grade applications with Generative AI.
 
-## 🎯 Purpose
-
-I created this repository to document my journey learning PydanticAI and to practice implementing various features of this framework. This is my personal learning project where I'm exploring how to build AI applications using a type-safe, model-agnostic approach.
 
 ## 🙏 Credits
 
@@ -64,14 +61,3 @@ As I've been learning PydanticAI (which is still in early beta), I've noted some
   ```
   BadRequestError: Error code: 400 - {'error': {'message': "An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_KMMn5Bo6wPN3aZosdstleZO2", 'type': 'invalid_request_error', 'param': 'messages.[6].role', 'code': None}}
   ```
-
-## 📚 My Learning Progress
-
-This section will be updated as I progress through learning and implementing different aspects of PydanticAI:
-
-- [ ] Basic agent setup and interaction
-- [ ] Working with structured responses
-- [ ] Implementing dependencies
-- [ ] Managing message history
-- [ ] Testing and evaluating agents
-- [ ] Debugging and monitoring with Logfire
